@@ -3,10 +3,12 @@
 
 A full-featured clone of the T3 Chat App that lets you interact with multiple LLM providers, upload attachments, and more — all built with the T3 Stack (Next.js +  JavaScript + Firebase + Langchain).  
 Seamless, authenticated, feature Rich and blazing fast.
+<img width="1408" alt="Screenshot 2025-06-18 at 4 00 31 PM" src="https://github.com/user-attachments/assets/23c7333a-bf6a-4bfe-8a0b-c6476c185319" />
 
 ---
 
 ## 🚀 Video
+
 
 
 
