@@ -4,7 +4,7 @@ import { getAuth, GoogleAuthProvider, signInWithPopup, signOut } from "firebase/
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCYYzPl5k-WLQsO_xswqyw5tVgEOxIuP5A",
+  apiKey: "AIzaSyBLrPhNq1eDGGM5mIL53BNaLanQSOH3R7Q",
   authDomain: "t3-clone-48b60.firebaseapp.com",
   projectId: "t3-clone-48b60",
   storageBucket: "t3-clone-48b60.firebasestorage.app",
