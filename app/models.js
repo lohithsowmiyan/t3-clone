@@ -159,7 +159,9 @@ function createMessageWithFile(prompt, fileContext) {
  */
 function createHumanMessageWithFile(prompt, fileContext) {
   console.log(fileContext)
-  
+  if (!fileContext.fileType){
+    return new HumanMessage(prompt);
+  }
   if (fileContext.fileType.startsWith('image/')) {
     // Create multimodal message for images
     console.log('yes it is there')
@@ -177,7 +179,7 @@ function createHumanMessageWithFile(prompt, fileContext) {
         }
       ]
     });
-  } else if (fileType === 'application/pdf') {
+  } else if (fileContext.fileType.startsWith('application/pdf')) {
     // For PDFs, include in text (you might want to extract text first)
     return new HumanMessage(`${prompt}\n\n[PDF Document Uploaded - Please analyze the content]`);
   }
