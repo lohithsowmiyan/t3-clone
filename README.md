@@ -35,7 +35,6 @@ https://drive.google.com/file/d/1ISCeCGX6pe-MMuVv5ii9m-AgO6Ywd6Ra/view?usp=shari
 | Feature                                                    | Status |
 |------------------------------------------------------------|--------|
 | Attachment Support (PDFs and Images)                       | ✅     |
-| AI-powered Image Generation (e.g., DALL·E / SDXL)          | ✅     |
 | Syntax Highlighting for Code Snippets                      | ✅     |
 | Resumable Streams (continue after refresh)                 | ✅     |
 | Shareable Chat Links                                       | ✅     |
